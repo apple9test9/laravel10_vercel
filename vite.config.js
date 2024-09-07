@@ -2,9 +2,7 @@ import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
 export default defineConfig({
-    server: {
-        https: true,
-    },
+    base: 'https://laravel10-vercel-m1mn8f8x1-apple9test9s-projects.vercel.app/',
     plugins: [
         laravel({
             input: [
