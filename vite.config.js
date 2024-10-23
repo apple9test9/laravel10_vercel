@@ -11,8 +11,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    build: {
-        outDir: 'public/build', // ビルドされたファイルを出力するディレクトリ
-        // その他の設定...
-    },
 });
